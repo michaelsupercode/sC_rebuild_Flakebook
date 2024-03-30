@@ -8,7 +8,10 @@ body {
 
 .App,
 .UserDetail {
+    display: grid;
     text-align: center;
+    width: 50em;
+    margin-top:2vh;
 }
 
 /* .App-logo {
@@ -58,20 +61,20 @@ body {
 }
 
 #joinFlakebookForm input {
-    font-size: large;
+    font-size:small;
     padding: 4px;
     border: 1px solid #282c34;
     width: 100%;
 }
 
 #joinFlakebookForm label {
-    font-size: large;
+    font-size:small;
     font-weight: bold;
 }
 
 #joinFlakebookForm button,
 .goBack {
-    font-size: large;
+    font-size:small;
     font-weight: bold;
     padding: 16px;
     border: none;

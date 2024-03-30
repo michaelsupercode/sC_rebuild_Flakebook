@@ -18,6 +18,8 @@ app.use(express.json())
 
 app.use(express.static("uploads"))
 
+app.get("/", (_, res) => res.send("it fuckin’ works :)"));
+
 app.get("/users", (req, res) => {
     res.json(usersArray)
 })

@@ -6,54 +6,29 @@ body {
     margin-top: 1vh;
   }
 
-.App,
-.UserDetail {
+.App {
     display: grid;
     text-align: center;
-    width: 50em;
+    place-items: center;
+
+    width: 15em;
     margin-top:2vh;
 }
 
-/* .App-logo {
-    height: 40vmin;
-    pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-        animation: App-logo-spin infinite 20s linear;
-    }
-} */
-
-/* .App-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #282c34;
-    min-height: 80vh;
-    font-size: calc(10px + 2vmin);
-    color: white;
+.UserDetail {
+    display: grid;
+    place-items: center;
+    text-align: center;
 }
 
 .App-link {
     color: #61dafb;
 } */
 
-/* @keyframes App-logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-} */
-
 #joinFlakebookForm {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 20em;
+    display: grid;
+  place-items: center;
+    width: 15em;
     gap: 10px;
     border: 1px solid #282c34;
     padding: 20px;
@@ -74,20 +49,21 @@ body {
 
 #joinFlakebookForm button,
 .goBack {
-    /* align-items: center; */
     font-size:small;
     font-weight: bold;
     padding: 16px;
-    border: none;
+    /* border: none; */
+    width: 15em;
     color: white;
     background-color: black;
     cursor: pointer;
 }
 
 button {
-    display: flex;
+    display: grid;
   align-items: center;
   justify-content: center;
+  width: 15em;
 }
 
 .errorMessage {

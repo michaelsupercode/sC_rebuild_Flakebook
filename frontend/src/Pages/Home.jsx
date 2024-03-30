@@ -8,9 +8,9 @@ function Home() {
 
   return (
     <div className="App">
-      <h1>Ahmeds Flakebook's</h1>
+      <h1>Ahmed's Flakebook</h1>
 
-      <h2>Join Flakebooks</h2>
+      <h2>..join his Flakebook community..</h2>
       <JoinFlakebookForm setUsers={setUsers} />
 
       <h2>our user list</h2>

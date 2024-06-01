@@ -13,7 +13,7 @@ function Home() {
       <h2>Join Flakebook</h2>
       <JoinFlakebookForm setUsers={setUsers} />
 
-      <h2>User List</h2>
+      <h2>actual User List</h2>
       <UserList setUsers={setUsers} users={users}/>
     </div>
   );
